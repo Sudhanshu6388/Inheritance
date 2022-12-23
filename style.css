@@ -1,0 +1,36 @@
+.boxes {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: lightslategray;
+    width: 1200px;
+    margin-left: 100px;
+    height: 400px;
+    text-align: center;
+    
+
+}
+
+.mainheading {
+    text-align: center;
+    height: 50px;
+    
+}
+
+.code {
+    font-size: 1.2em;
+    width: 90%;
+}
+.boxes:hover{
+    box-shadow:0.5px 0.5px 30px black;
+    transform: translateY(10px);
+}
+.boxes{
+    transition: all 1s;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mainheading{
+    background-color: black;
+    color: white;
+}
